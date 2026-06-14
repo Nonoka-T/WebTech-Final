@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Sample Project | Nonoka Takahashi | Web Tech Portfolio</title>
+</head>
+
+<body class="font-sans">
+
+  <header>
+    <h1>Nonoka Takahashi</h1>
+  </header>
+
+  <nav class="top-nav" id="main-nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="sample-project-section">
+
+      <!-- Ninja API form -->
+      <section class="api-form">
+        <h3>Ninja API App</h3>
+        <form id="api-form">
+          <fieldset class="api-choice">
+            <p>Pick from the following API's.</p>
+            <label>
+              <input type="checkbox" class="toggle-checkbox" id="airports-api">
+              Airports API
+            </label>
+
+            <label>
+              <input type="checkbox" class="toggle-checkbox" id="exchange-api">
+              Exchange Rate API
+            </label>
+          </fieldset>
+
+          <label for="api-input" id="api-input-label">
+            Choose an API first
+          </label>
+          <input type="text" id="api-input" placeholder="e.g. JPY or USD_AUD">
+
+          <button type="submit" id="get-response-button"> Get Response</button>
+        </form>
+        <section id="response-area">
+          <h3>API Response</h3>
+        </section>
+      </section>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p>© 2026 Nonoka Takahashi. All rights reserved.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="#">North Metro TAFE</a></li>
+          <li><a href="#">ScreenCraft Dev Sites</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="copyright.html">Copyright</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
