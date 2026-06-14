@@ -429,6 +429,62 @@ footer nav a:hover {
   font-weight: 500;
 }
 
+/* Resume page */
+
+.resume-section {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+}
+
+.resume-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.resume-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-block {
+  margin-bottom: 2rem;
+}
+
+.resume-block h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #95756C;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #6B7280;
+  padding-bottom: 0.5rem;
+}
+
+.resume-entry {
+  margin-bottom: 1rem;
+}
+
+.resume-entry h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0.25rem;
+}
+
+.resume-entry p {
+  line-height: 1.75;
+  color: #6B7280;
+  margin-bottom: 0.25rem;
+}
+
+.resume-meta {
+  font-size: 0.8rem;
+  color: #DC9287;
+}
+
+
 /* Desktop layout */
 @media screen and (min-width: 768px) {
 
