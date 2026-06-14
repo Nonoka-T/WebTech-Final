@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Contact | Nonoka Takahashi | Web Tech Portfolio</title>
+</head>
+
+<body class="font-sans">
+
+  <header>
+    <h1>Nonoka Takahashi</h1>
+  </header>
+
+  <nav class="top-nav" id="main-nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="contact-section">
+      <h2>Get in touch</h2>
+      <p>Fill in the form below and I'll get back to you as soon as possible.</p>
+
+      <!-- Success message -->
+      <p id="success-msg" class="success-msg" role="alert">
+        Message sent! I'll be in touch soon.
+      </p>
+
+      <form id="contact-form" novalidate class="contact-form">
+
+        <!-- Name -->
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name">
+        <p id="name-error" class="error-msg" role="alert">
+          Please enter your name (letters only, at least 2 characters).
+        </p>
+
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+        <p id="email-error" class="error-msg" role="alert">
+          Please enter a valid email address.
+        </p>
+
+        <!-- Message -->
+        <label for="message">Message </label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+        <p id="message-error" class="error-msg" role="alert">
+          Message must be at least 10 characters.
+        </p>
+
+        <!-- Submit -->
+        <button type="submit" id="submit-btn" disabled>Send message</button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p>© 2026 Nonoka Takahashi. All rights reserved.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="#">North Metro TAFE</a></li>
+          <li><a href="#">ScreenCraft Dev Sites</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">Copyright</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/contact.js"></script>
+
+</body>
+</html>
