@@ -8,21 +8,23 @@
   <title>Sample Project | Nonoka Takahashi | Web Tech Portfolio</title>
 </head>
 
-<body class="font-sans">
+<body>
 
-  <header>
-    <h1>Nonoka Takahashi</h1>
+  <header class="sticky top-0 flex flex-col justify-between p-6 mx-auto md:flex-row gap-2 bg-brandy text-white">
+    <h1 class="flex items-center mb-4 title-font md:mb-0 gap-2 text-sm">
+      Nonoka Takahashi
+    </h1>
+    <nav aria-label="Main navigation" class="flex text-base md:ml-auto border border-dashed">
+      <ul class="flex flex-wrap">
+        <li class="mr-4"><a href="index.html">Home</a></li>
+        <li class="mr-4"><a href="about.html">About</a></li>
+        <li class="mr-4"><a href="resume.html">Resume</a></li>
+        <li class="mr-4"><a href="projects.html">Projects</a></li>
+        <li class="mr-4"><a href="sample-project.html">Sample Project</a></li>
+        <li class="mr-4"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-
-  <nav class="top-nav" id="main-nav" aria-label="Main navigation">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
 
   <main>
 
@@ -61,20 +63,25 @@
 
   </main>
 
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <p>© 2026 Nonoka Takahashi. All rights reserved.</p>
-      </div>
-      <nav aria-label="Footer navigation">
-        <ul>
-          <li><a href="#">North Metro TAFE</a></li>
-          <li><a href="#">ScreenCraft Dev Sites</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="copyright.html">Copyright</a></li>
-        </ul>
-      </nav>
-    </div>
+  <footer class="text-monalisa bg-black body-font w-full flex flex-col items-start justify-between p-6 md:flex-row gap-2">
+    <p class="flex items-center mb-4 title-font md:mb-0 gap-2 hover:text-white transition duration-500 ease-in-out text-sm">
+      Nonoka Takahashi
+    </p>
+
+    <p class="flex flex-wrap text-sm pl-6 ml-6 text-base border-l border-gray grow m-auto">
+      © 2026 Nonoka Takahashi. All rights reserved.
+    </p>
+
+    <nav aria-label="Footer navigation" class="flex flex-wrap text-sm pl-6 ml-6 text-base border-l border-gray md:mr-auto gap-2">
+      <a href="https://www.northmetrotafe.wa.edu.au/"
+         class="border-b border-gray hover:border-monalisa hover:text-white transition duration-500 ease-in-out">North Metro TAFE</a>
+      <a href="https://components.dev.screencraft.net.au"
+         class="border-b border-gray hover:border-monalisa hover:text-white transition duration-500 ease-in-out">ScreenCraft Dev Sites</a>
+      <a href="contact.html"
+         class="border-b border-gray hover:border-monalisa hover:text-white transition duration-500 ease-in-out">Contact Us</a>
+      <a href="copyright.html"
+         class="border-b border-gray hover:border-monalisa hover:text-white transition duration-500 ease-in-out">Copyright</a>
+    </nav>
   </footer>
 
   <script src="assets/js/script.js"></script>

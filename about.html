@@ -8,61 +8,77 @@
   <title>About | Nonoka Takahashi | Web Tech Portfolio</title>
 </head>
 
-<body class="font-sans">
+<body>
 
-  <header>
-    <h1>Nonoka Takahashi</h1>
+  <header class="sticky top-0 flex flex-col justify-between p-6 mx-auto md:flex-row gap-2 bg-brandy text-white">
+    <h1 class="flex items-center mb-4 title-font md:mb-0 gap-2 text-sm">
+      Nonoka Takahashi
+    </h1>
+    <nav aria-label="Main navigation" class="flex text-base md:ml-auto border border-dashed">
+      <ul class="flex flex-wrap">
+        <li class="mr-4"><a href="index.html">Home</a></li>
+        <li class="mr-4"><a href="about.html">About</a></li>
+        <li class="mr-4"><a href="resume.html">Resume</a></li>
+        <li class="mr-4"><a href="projects.html">Projects</a></li>
+        <li class="mr-4"><a href="sample-project.html">Sample Project</a></li>
+        <li class="mr-4"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-
-  <nav class="top-nav" id="main-nav" aria-label="Main navigation">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="sample-project.html">Sample Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
 
   <main>
 
-    <section class="about-section">
-      <h2>About me</h2>
+    <section class="max-w-5xl mx-auto px-6 py-14">
+      <h2 class="text-3xl font-bold text-black">About me</h2>
+    </section>
 
-      <article class="about-profile">
-        <div class="about-text">
-          <h3>Nonoka Takahashi</h3>
-          <p>Student | Web Developer | North Metro TAFE</p>
-          <p>
-            I'm currently studying Certificate IV in Information Technology
-            (Programming) at North Metro TAFE. I'm learning how to build websites with
-            HTML, CSS and JavaScript.
-          </p>
-          <p>
-            Outside of study, I'm interested in traveling, photography and cooking.
-            This portfolio is part of my course work.
-          </p>
-        </div>
-      </article>
+    <article class="max-w-5xl mx-auto px-6 pb-14 flex flex-col md:flex-row gap-6">
+      <p class="flex-1">
+        <span class="block text-xl font-bold text-black mb-1">Nonoka Takahashi</span>
+        <span class="block text-brandy font-medium mb-3">Student | Web Developer | North Metro TAFE</span>
+        <span class="block text-gray leading-relaxed mb-3">
+          I'm currently studying Certificate IV in Information Technology
+          (Programming) at North Metro TAFE. I'm learning how to build websites with
+          HTML, CSS and JavaScript.
+        </span>
+        <span class="block text-gray leading-relaxed">
+          Outside of study, I'm interested in traveling, photography and cooking.
+          This portfolio is part of my course work.
+        </span>
+      </p>
+    </article>
+
+    <section class="bg-white border-t border-b border-gray py-14 px-6">
+      <h2 class="text-2xl font-bold text-black mb-6 max-w-5xl mx-auto">Skills & Interests</h2>
+      <ul class="list-none flex flex-wrap m-0 p-0 max-w-5xl mx-auto">
+        <li class="border border-gray rounded px-4 py-2 text-sm text-black mr-2 mb-2">Web Development</li>
+        <li class="border border-gray rounded px-4 py-2 text-sm text-black mr-2 mb-2">Photography</li>
+        <li class="border border-gray rounded px-4 py-2 text-sm text-black mr-2 mb-2">Traveling</li>
+        <li class="border border-gray rounded px-4 py-2 text-sm text-black mr-2 mb-2">Cooking</li>
+      </ul>
     </section>
 
   </main>
 
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <p>© 2026 Nonoka Takahashi. All rights reserved.</p>
-      </div>
-      <nav aria-label="Footer navigation">
-        <ul>
-          <li><a href="https://www.northmetrotafe.wa.edu.au/">North Metro TAFE</a></li>
-          <li><a href="https://components.dev.screencraft.net.au">ScreenCraft Dev Sites</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="copyright.html">Copyright</a></li>
-        </ul>
-      </nav>
-    </div>
+  <footer class="text-monalisa bg-black body-font w-full flex flex-col items-start justify-between p-6 md:flex-row gap-2">
+    <p class="flex items-center mb-4 title-font md:mb-0 gap-2 hover:text-white transition duration-500 ease-in-out text-sm">
+      Nonoka Takahashi
+    </p>
+
+    <p class="flex flex-wrap text-sm pl-6 ml-6 text-base border-l border-gray grow m-auto">
+      © 2026 Nonoka Takahashi. All rights reserved.
+    </p>
+
+    <nav aria-label="Footer navigation" class="flex flex-wrap text-sm pl-6 ml-6 text-base border-l border-gray md:mr-auto gap-2">
+      <a href="https://www.northmetrotafe.wa.edu.au/"
+         class="border-b border-gray hover:border-monalisa hover:text-white transition duration-500 ease-in-out">North Metro TAFE</a>
+      <a href="https://components.dev.screencraft.net.au"
+         class="border-b border-gray hover:border-monalisa hover:text-white transition duration-500 ease-in-out">ScreenCraft Dev Sites</a>
+      <a href="contact.html"
+         class="border-b border-gray hover:border-monalisa hover:text-white transition duration-500 ease-in-out">Contact Us</a>
+      <a href="copyright.html"
+         class="border-b border-gray hover:border-monalisa hover:text-white transition duration-500 ease-in-out">Copyright</a>
+    </nav>
   </footer>
 
 </body>

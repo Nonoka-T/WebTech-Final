@@ -4,7 +4,14 @@ module.exports = {
     './*.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brandy: '#95756C',
+        monalisa: '#DC9287',
+        gray: '#6B7280',
+        crimson: '#C43639',
+      },
+    },
   },
   plugins: [],
 };
