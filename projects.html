@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/site.css">
   <link rel="stylesheet" href="assets/css/styles.css">
-  <title>Home | Nonoka Takahashi | Web Tech Portfolio</title>
+  <title>Projects | Nonoka Takahashi | Web Tech Portfolio</title>
 </head>
 
 <body>
@@ -14,50 +14,52 @@
     <h1 class="flex items-center mb-4 title-font md:mb-0 gap-2 text-sm">
       Nonoka Takahashi
     </h1>
-    <nav aria-label="Main navigation" class="flex text-base md:ml-auto border border-dashed">
+    <nav aria-label="Main navigation" class="flex flex-wrap text-base md:ml-auto border border-dashed">
       <ul class="flex flex-wrap">
         <li class="mr-4"><a href="index.html">Home</a></li>
         <li class="mr-4"><a href="about.html">About</a></li>
         <li class="mr-4"><a href="resume.html">Resume</a></li>
         <li class="mr-4"><a href="projects.html">Projects</a></li>
         <li class="mr-4"><a href="sample-project.html">Sample Project</a></li>
-        <li class="mr-4"><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
 
-    <section class="projects-section">
-      <h2>Projects</h2>
+    <!-- Page title - Projects -->
+    <section class="max-w-5xl mx-auto px-6 py-14">
+      <h2 class="text-3xl font-bold text-black">Projects</h2>
+    </section>
 
-      <div class="projects-grid">
+    <!-- Project cards - side by side -->
+    <section class="max-w-5xl mx-auto px-6 pb-14 flex flex-col md:flex-row gap-4">
 
-        <article class="project-card">
-          <header class="project-card-header">
-            <h3>Sample Project</h3>
-          </header>
-          <div class="project-card-body">
-            <p>Ninja API form to fetch live airport and exchange rate data.</p>
-            <p>Built with HTML, CSS and JavaScript.</p>
-          </div>
-          <footer class="project-card-footer">
-            <a href="sample-project.html">View project</a>
-          </footer>
-        </article>
+      <article class="w-full md:w-1/2 border border-gray flex flex-col gap-4 p-4">
+        <header class="bg-brandy text-white p-4 -m-4 mb-0">
+          <h3 class="font-bold text-xl">Sample Project</h3>
+        </header>
+        <p class="flex flex-col gap-4">
+          Ninja API form to fetch live airport and exchange rate data. Built with HTML, CSS and JavaScript.
+        </p>
+        <footer class="bg-white text-black border-t border-gray p-4 -m-4 mt-0">
+          <a href="sample-project.html" class="text-sm text-brandy hover:underline">View project</a>
+        </footer>
+      </article>
 
-        <article class="project-card">
-          <header class="project-card-header">
-            <h3>Project Two</h3>
-          </header>
-          <div class="project-card-body">
-            <p>A short description of this project goes here.</p>
-          </div>
-          <footer class="project-card-footer">
-            <a href="#">View project</a>
-          </footer>
-        </article>
-      </div>
+      <article class="w-full md:w-1/2 border border-gray flex flex-col gap-4 p-4">
+        <header class="bg-brandy text-white p-4 -m-4 mb-0">
+          <h3 class="font-bold text-xl">Project Two</h3>
+        </header>
+        <p class="flex flex-col gap-4">
+          A short description of this project goes here.
+        </p>
+        <footer class="bg-white text-black border-t border-gray p-4 -m-4 mt-0">
+          <a href="#" class="text-sm text-brandy hover:underline">View project</a>
+        </footer>
+      </article>
+
     </section>
 
   </main>

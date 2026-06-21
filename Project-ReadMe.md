@@ -2,7 +2,7 @@
 
 ## About This Project
 
-
+A multi-page personal portfolio website built as part of the Certificate IV in IT (Programming) at North Metro TAFE. Built with HTML, TailwindCSS and vanilla JavaScript.
 
 ---
 
@@ -16,14 +16,14 @@
 
 ## Site Structure
 
-| Page | File | Description? |
+| Page | File | Description |
 |---|---|---|
-| Home | index.html |  
-| About | about.html | 
-| Resumé | resume.html | 
-| Projects | projects.html | 
-| Contact | contact.html | 
-| Sample Project | sample-project.html | 
+| Home | index.html |  Landing page with hero, about preview, skills, and featured project |
+| About | about.html | Personal background and interests
+| Resumé | resume.html | Education, skills and work experience 
+| Projects | projects.html | List of completed projects
+| Contact | contact.html | Contact form with JS validation 
+| Sample Project | sample-project.html |  Working example of the Ninja API form 
 
 ---
 
